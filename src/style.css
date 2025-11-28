@@ -1,5 +1,29 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+#RandomCard {
+    border-radius: 7%;
+}
 
-body{
-    background: white;
+#esquinaSuperior{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    text-align: center;
+    font-size: 95px;
+}
+#valor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#esquina-inferior {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  text-align: center;
+  font-size: 95px;
+  transform: rotate(180deg);
 }
